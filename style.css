@@ -1,0 +1,50 @@
+html, body, canvas {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+canvas {
+    background: #333333
+}
+
+#control {
+    position: absolute;
+    float: right;
+    right: 10px;
+    top: 10px;
+    width: 180px;
+    padding: 10px;
+    border-radius: 5px;
+    color: #DDDDDD;
+    -webkit-box-shadow: 0 0 3px rgba(255,255,255,0.8) inset;
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.group {
+    line-height: 40px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.item {
+    height: 40px;
+}
+
+.item .lable {
+    display: inline-block;
+    width: 50px;
+}
+
+.item .input {
+    font-size: 18px;
+    width: 110px;
+}
+
+#play {
+    width: 100%;
+    height: 30px;
+}
